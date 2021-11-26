@@ -51,9 +51,17 @@
                         <p>
                             At Musical Six Strings,
                             we specialize in curriculum based guitar tuition, which encompasses the Trinity college of 
-                            London's Classical & Plectrum grade initial through to grade 8 syllabus (2015-2019).
-                        </p>
-                        <em>
+                            London's Classical & Plectrum grade initial through to grade 8 syllabus (2015-2019). <span id="learnMore1"> Learn more...</span>
+                </p>
+                <p id="dropDown3">
+                    Having a Trinity grade certificate verifies that you have met the criteria required by the Office of Qualifications and Examinations Regulation (Ofqual) and Qualifications Wales (QW), whose standards are set by the Regulated Qualifications Framework (RQF);
+                    credentials such as these are recognized around the globe as the industry standard in the music and entertainments industry. Grades 6-8 are a minimum requirement for students hoping to be put forward for further education such as a
+                    diploma or higher. we encourage all of our pupils to work toward completing each grade but we also cater for pupils that are just aiming to hone there current skills and expand on their musical repertoire.
+                    <span id="learnLess">Read less.</span>
+                </p>
+
+
+                <em>
                             Learning to sight read and understand music theory, come as standard in all of our lessons.
                         </em>
                 </span>
@@ -68,6 +76,7 @@
                         The methods we use to teach have been proven consistently to be the most efficient and effective
                         which enables us to maintain an exam pass rate of 99% with many students receiving merits and distinctions.
                     </p>
+
                     <h4 class="expand-1" onclick="expand_1('expanded-1')">Read more.</h4>
                     </span>
             </div>
@@ -181,6 +190,18 @@
             $("#dropDown2").slideUp();
             $("#drop2Down").css("display", "block");
             $("#drop2Up").css("display", "none");
+
+        })
+        $("#learnMore1").click(function() {
+            $("#dropDown3").slideDown();
+            $("#learnMore1").css("display", "none");
+            $("#learnLess").css("display", "inline");
+
+        })
+        $("#learnLess").click(function() {
+            $("#dropDown3").slideUp();
+            $("#learnMore1").css("display", "inline");
+            $("#learnLess").css("display", "none");
 
         })
     </script>
