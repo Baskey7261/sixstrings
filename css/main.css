@@ -587,7 +587,8 @@ header {
 #drop1Up,
 #drop2Up,
 #dropDown1,
-#dropDown2 {
+#dropDown2,
+#dropDown3 {
     display: none;
 }
 
