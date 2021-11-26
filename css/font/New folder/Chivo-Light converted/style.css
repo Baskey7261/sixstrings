@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Chivo-Light";
+  src: url("./fonts/Chivo-Light.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Chivo-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Chivo-Light.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Chivo-Light.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Chivo-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Chivo-Light.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Chivo-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

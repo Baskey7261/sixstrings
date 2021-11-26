@@ -1,0 +1,54 @@
+/* Items setup */
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen {
+    .child-1,
+    .child-3,
+    .child-5 {
+        background-color: aquamarine;
+    }
+    .child-2,
+    .child-4,
+    .child-6 {
+        background-color: rgb(255, 127, 234);
+    }
+    .parent {
+        width: 90%;
+        max-width: 900px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 0px auto;
+        justify-content: center;
+        /* display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-auto-rows: minmax(auto, 1fr);
+        justify-items: center; */
+    }
+    .parent div img {
+        display: block;
+        float: left;
+        width: 150px;
+        padding: 0px 15px 0px 0px;
+        margin: 0px;
+        -border: 1px solid rgb(98, 0, 255);
+        -object-fit: contain;
+        overflow: hidden;
+    }
+    .parent div h3 {
+        min-width: 30ch;
+    }
+    .parent div {
+        line-height: 1.2rem;
+        max-width: 600px;
+        min-width: 300px;
+        flex: 1 1 200px;
+        border: 1px solid red;
+        padding: 10px;
+    }
+}
+

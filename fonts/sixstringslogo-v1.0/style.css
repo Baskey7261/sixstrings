@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'sixstringslogo';
+  src:  url('fonts/sixstringslogo.eot?eap0ql');
+  src:  url('fonts/sixstringslogo.eot?eap0ql#iefix') format('embedded-opentype'),
+    url('fonts/sixstringslogo.ttf?eap0ql') format('truetype'),
+    url('fonts/sixstringslogo.woff?eap0ql') format('woff'),
+    url('fonts/sixstringslogo.svg?eap0ql#sixstringslogo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sixstringslogo' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sixstringslogo1:before {
+  content: "\e900";
+}

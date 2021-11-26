@@ -1,0 +1,503 @@
+@font-face {
+    font-family: 'sixstringslogo';
+    src: url('fonts/sixstringslogo.eot?eap0ql');
+    src: url('fonts/sixstringslogo.eot?eap0ql#iefix') format('embedded-opentype'), url('fonts/sixstringslogo.ttf?eap0ql') format('truetype'), url('fonts/sixstringslogo.woff?eap0ql') format('woff'), url('fonts/sixstringslogo.svg?eap0ql#sixstringslogo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'sixstringslogo' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?1ktavu');
+    src: url('fonts/icomoon.eot?1ktavu#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?1ktavu') format('truetype'), url('fonts/icomoon.woff?1ktavu') format('woff'), url('fonts/icomoon.svg?1ktavu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url('fonts/Raleway-ExtraBold.ttf') format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: sixstrings;
+    src: url('fonts/sixstrings.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('fonts/Raleway-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("fonts/Raleway-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBoldItalic';
+    src: url('Poppins-SemiBoldItalic.woff2') format('woff2'), url('Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('Quicksand-Bold.woff2') format('woff2'), url('Quicksand-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ComfortaaLight';
+    src: url('Comfortaa-Light.woff2') format('woff2'), url('Comfortaa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsExLight';
+    src: url('Poppins-ExtraLight.woff2') format('woff2'), url('Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsExBold';
+    src: url('Poppins-ExtraBoldItalic.woff2') format('woff2'), url('Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('Poppins-SemiBold.woff2') format('woff2'), url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ComfortaaRegular';
+    src: url('Comfortaa-Regular.woff2') format('woff2'), url('Comfortaa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsLightItalic';
+    src: url('Poppins-LightItalic.woff2') format('woff2'), url('Poppins-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PoppinsBoldItalic';
+    src: url('Poppins-BoldItalic.woff2') format('woff2'), url('Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PoppinsExLight';
+    src: url('Poppins-ExtraLightItalic.woff2') format('woff2'), url('Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('Quicksand-Light.woff2') format('woff2'), url('Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HindMed';
+    src: url('Hind-Medium.woff2') format('woff2'), url('Hind-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABeeZeeReg';
+    src: url('ABeeZee-Regular.woff2') format('woff2'), url('ABeeZee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsItalic';
+    src: url('Poppins-Italic.woff2') format('woff2'), url('Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RighteousReg';
+    src: url('Righteous-Regular.woff2') format('woff2'), url('Righteous-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HindReg';
+    src: url('Hind-Regular.woff2') format('woff2'), url('Hind-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HindLight';
+    src: url('Hind-Light.woff2') format('woff2'), url('Hind-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABeeZeeItalic';
+    src: url('ABeeZee-Italic.woff2') format('woff2'), url('ABeeZee-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HindSmiBold';
+    src: url('Hind-SemiBold.woff2') format('woff2'), url('Hind-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsThin';
+    src: url('Poppins-Thin.woff2') format('woff2'), url('Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsBlack';
+    src: url('Poppins-Black.woff2') format('woff2'), url('Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('Poppins-Bold.woff2') format('woff2'), url('Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsReg';
+    src: url('Poppins-Regular.woff2') format('woff2'), url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsMedItal';
+    src: url('Poppins-MediumItalic.woff2') format('woff2'), url('Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PoppinsBlack';
+    src: url('Poppins-BlackItalic.woff2') format('woff2'), url('Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ComfortaaBold';
+    src: url('Comfortaa-Bold.woff2') format('woff2'), url('Comfortaa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsExBold';
+    src: url('Poppins-ExtraBold.woff2') format('woff2'), url('Poppins-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HindBold';
+    src: url('Hind-Bold.woff2') format('woff2'), url('Hind-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsThinItalic';
+    src: url('Poppins-ThinItalic.woff2') format('woff2'), url('Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'QuicksandMed';
+    src: url('Quicksand-Medium.woff2') format('woff2'), url('Quicksand-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandReg';
+    src: url('newwoffs/Quicksand-Regular.woff2') format('woff2'), url('newwoffs/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Didact-GothicReg';
+    src: url('newwoffs/DidactGothic-Regular.woff2') format('woff2'), url('newwoffs/DidactGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('newwoffs/Poppins-Light.woff2') format('woff2'), url('newwoffs/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('newwoffs/Poppins-Medium.woff2') format('woff2'), url('newwoffs/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rio Glamour personal use';
+    src: url('fonts/RioGlamour.woff2') format('woff2'), url('fonts/RioGlamour.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "chivoRegular";
+    src: url("font/Chivo-Regular.eot");
+    /* IE9 Compat Modes */
+    src: url("font/Chivo-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/Chivo-Regular.otf") format("opentype"), /* Open Type Font */
+    url("font/Chivo-Regular.svg") format("svg"), /* Legacy iOS */
+    url("font/Chivo-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/Chivo-Regular.woff") format("woff"), /* Modern Browsers */
+    url("font/Chivo-Regular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "chivolight";
+    src: url("font/Chivo-Light.eot");
+    /* IE9 Compat Modes */
+    src: url("font/Chivo-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/Chivo-Light.otf") format("opentype"), /* Open Type Font */
+    url("font/Chivo-Light.svg") format("svg"), /* Legacy iOS */
+    url("font/Chivo-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/Chivo-Light.woff") format("woff"), /* Modern Browsers */
+    url("font/Chivo-Light.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "chivoBold";
+    src: url("font/Chivo-Bold.eot");
+    /* IE9 Compat Modes */
+    src: url("font/Chivo-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/Chivo-Bold.otf") format("opentype"), /* Open Type Font */
+    url("font/Chivo-Bold.svg") format("svg"), /* Legacy iOS */
+    url("font/Chivo-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/Chivo-Bold.woff") format("woff"), /* Modern Browsers */
+    url("font/Chivo-Bold.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MontserratAlternatesMedium";
+    src: url("font/MontserratAlternates-Medium.eot");
+    /* IE9 Compat Modes */
+    src: url("font/MontserratAlternates-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/MontserratAlternates-Medium.otf") format("opentype"), /* Open Type Font */
+    url("font/MontserratAlternates-Medium.svg") format("svg"), /* Legacy iOS */
+    url("font/MontserratAlternates-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/MontserratAlternates-Medium.woff") format("woff"), /* Modern Browsers */
+    url("font/MontserratAlternates-Medium.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MontserratAlternatesLight";
+    src: url("font/MontserratAlternates-Light.eot");
+    /* IE9 Compat Modes */
+    src: url("font/MontserratAlternates-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/MontserratAlternates-Light.otf") format("opentype"), /* Open Type Font */
+    url("font/MontserratAlternates-Light.svg") format("svg"), /* Legacy iOS */
+    url("font/MontserratAlternates-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/MontserratAlternates-Light.woff") format("woff"), /* Modern Browsers */
+    url("font/MontserratAlternates-Light.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Michroma";
+    src: url("font/Michroma.eot");
+    /* IE9 Compat Modes */
+    src: url("font/Michroma.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/Michroma.otf") format("opentype"), /* Open Type Font */
+    url("font/Michroma.svg") format("svg"), /* Legacy iOS */
+    url("font/Michroma.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/Michroma.woff") format("woff"), /* Modern Browsers */
+    url("font/Michroma.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Quicksandregular";
+    src: url("font/Quicksand-Regular.eot");
+    /* IE9 Compat Modes */
+    src: url("font/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/Quicksand-Regular.otf") format("opentype"), /* Open Type Font */
+    url("font/Quicksand-Regular.svg") format("svg"), /* Legacy iOS */
+    url("font/Quicksand-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/Quicksand-Regular.woff") format("woff"), /* Modern Browsers */
+    url("font/Quicksand-Regular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JuliusSansOneRegular";
+    src: url("font/JuliusSansOne-Regular.eot");
+    /* IE9 Compat Modes */
+    src: url("font/JuliusSansOne-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/JuliusSansOne-Regular.otf") format("opentype"), /* Open Type Font */
+    url("font/JuliusSansOne-Regular.svg") format("svg"), /* Legacy iOS */
+    url("font/JuliusSansOne-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/JuliusSansOne-Regular.woff") format("woff"), /* Modern Browsers */
+    url("font/JuliusSansOne-Regular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gidolinyaregular';
+    src: url('font/gidolinya-regular.woff2') format('woff2'), url('font/gidolinya-regular.woff') format('woff'), url('font/gidolinya-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texgyreadventor-regular';
+    src: url('font/texgyreadventor-regular.otf') format('opentype'), url('font/texgyreadventor-regular.otf') format('opentype'), font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url('font/Abel-Regular.woff2') format('woff2'), url('font/Abel-Regular.woff') format('woff'), url('font/Abel-regular.ttf') format('truetype');
+    url('font/Abel-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('fontello/fontello.eot?26027922');
+    src: url('fontello/fontello.eot?26027922#iefix') format('embedded-opentype'), url('fontello/fontello.woff?26027922') format('woff'), url('fontello/fontello.ttf?26027922') format('truetype'), url('fontello/fontello.svg?26027922#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url('font/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swis';
+    src: url('font/Watchword_regular_demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baumans';
+    src: url('font/Baumans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orbitronregula';
+    src: url('font/Orbitron-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
