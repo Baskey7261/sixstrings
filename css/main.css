@@ -120,12 +120,13 @@ h3 {
 }
 
 h4 {
-    font-size: .8rem;
+    font-size: 1.15rem;
     font-weight: 300;
     font-style: normal;
-    line-height: 1.5rem;
+    line-height: 1rem;
     letter-spacing: 0.12em;
     margin: 0px;
+    padding: 0px;
     color: rgb(27, 27, 27);
 }
 
@@ -492,6 +493,12 @@ header {
     margin-top: 0vw;
 }
 
+#syllabuses {
+    width: 90%;
+    max-width: 700px;
+    width: auto;
+}
+
 .central-image h3 {
     padding-bottom: 10px;
     text-align: left;
@@ -511,8 +518,8 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-between;
+    -justify-content: space-evenly;
+    -align-content: space-between;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 950px;
@@ -535,6 +542,7 @@ header {
     text-align: left;
     max-width: 90ch;
     padding: 0px 2% 0px 2%;
+    margin-top: 0px;
 }
 
 .cell4-cell1 {
@@ -557,6 +565,7 @@ header {
     width: 100%;
     object-fit: cover;
     border-radius: 3px;
+    margin-top: 10px;
 }
 
 .p-top-space {
