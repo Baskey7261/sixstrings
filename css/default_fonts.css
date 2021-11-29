@@ -229,7 +229,7 @@ i {
 
 @font-face {
     font-family: 'PoppinsReg';
-    src: url('Poppins-Regular.woff2') format('woff2'), url('Poppins-Regular.woff') format('woff');
+    src: url('fonts/Poppins-Regular.woff2') format('woff2'), url('Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
