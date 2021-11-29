@@ -253,7 +253,7 @@ header {
 .pageSubTitle {
     text-align: center;
     color: var(--accent);
-    color: rgb(224, 223, 220);
+    color: rgb(212, 168, 35);
     font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: .06em;
