@@ -155,7 +155,7 @@ button {
     margin: 0px;
     padding: 0px;
     font-size: 1.25em;
-    color: rgb(253, 251, 251);
+    color: rgb(235, 161, 64);
 }
 
 .navlogo {
@@ -253,8 +253,9 @@ header {
 .pageSubTitle {
     text-align: center;
     color: var(--accent);
-    font-size: 1rem;
-    font-weight: 300;
+    color: rgb(224, 223, 220);
+    font-size: 1.1rem;
+    font-weight: 500;
     letter-spacing: .06em;
 }
 
@@ -736,9 +737,9 @@ footer ul li {
     }
     .pageSubTitle {
         text-align: center;
-        color: var(--accent);
+        -color: var(--accent);
         font-weight: 100;
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .pageSubSubTitle {
         text-align: center;
