@@ -251,7 +251,7 @@ header {
 }
 
 .box {
-    border: 2px solid var(--accent);
+    -border: 2px solid var(--accent);
     border-radius: 3px;
     padding: 10px;
     color: grey;
