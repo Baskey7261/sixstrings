@@ -592,6 +592,13 @@ header {
     margin-top: 10px;
 }
 
+#aside1 {
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
 #locate {
     width: 90%;
     max-width: 700px;
