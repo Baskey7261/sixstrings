@@ -250,6 +250,13 @@ header {
     color: rgb(235, 235, 233);
 }
 
+.box {
+    border: 2px solid var(--accent);
+    border-radius: 3px;
+    padding: 10px;
+    color: grey;
+}
+
 .pageSubTitle {
     text-align: center;
     color: var(--accent);
