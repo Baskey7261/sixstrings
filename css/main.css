@@ -5,31 +5,35 @@
 
 @font-face {
     font-family: 'sixstringslogo';
-    src: url('fonts/sixstringslogo.eot?eap0ql');
-    src: url('fonts/sixstringslogo.eot?eap0ql#iefix') format('embedded-opentype'), url('fonts/sixstringslogo.ttf?eap0ql') format('truetype'), url('fonts/sixstringslogo.woff?eap0ql') format('woff'), url('fonts/sixstringslogo.svg?eap0ql#sixstringslogo') format('svg');
+    src: url('../assets/fonts/sixstringslogo.eot?eap0ql');
+    src: url('../assets/fonts/sixstringslogo.eot?eap0ql#iefix') format('embedded-opentype'), url('../assets/fonts/sixstringslogo.ttf?eap0ql') format('truetype'), url('../assets/fonts/sixstringslogo.woff?eap0ql') format('woff'), url('../assets/fonts/sixstringslogo.svg?eap0ql#sixstringslogo') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
 }
 
+@font-face {
+    font-family: 'QuicksandReg';
+    src: url('../assets/fonts/Quicksand-Regular.woff2') format('woff2'), url('../assets/fonts/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 i {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'sixstringslogo' !important;
-    speak: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
     font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?1ktavu');
-    src: url('fonts/icomoon.eot?1ktavu#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?1ktavu') format('truetype'), url('fonts/icomoon.woff?1ktavu') format('woff'), url('fonts/icomoon.svg?1ktavu#icomoon') format('svg');
+    src: url('../assets/fonts/icomoon.eot?1ktavu');
+    src: url('../assets/fonts/icomoon.eot?1ktavu#iefix') format('embedded-opentype'), url('../assets/fonts/icomoon.ttf?1ktavu') format('truetype'), url('../assets/fonts/icomoon.woff?1ktavu') format('woff'), url('../assets/fonts/icomoon.svg?1ktavu#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -208,7 +212,7 @@ nav div {
 }
 
 header {
-    background-image: url('../images/MUSIC/Image221.jpg');
+    background-image: url('../assets/img/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -364,7 +368,7 @@ header {
 }
 
 .cell2 {
-    background-image: url('../images/MUSIC/Image244.jpg');
+    background-image: url('../assets/img/cell2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 90% 10%;
@@ -418,7 +422,7 @@ header {
 
 .expanded-1 {
     position: relative;
-    background-image: url('../images/slides_3/slide006.jpg');
+    background-image: url('../assets/img/slide006.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
