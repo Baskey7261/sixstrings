@@ -802,7 +802,6 @@ footer ul li {
         -margin-top: 2.25rem;
     }
     .cell2 {
-        background-image: url('../images/MUSIC/Image244.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -844,10 +843,6 @@ footer ul li {
     }
     .expanded-1 {
         position: relative;
-        background-image: url('../images/slides_3/slide006.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
