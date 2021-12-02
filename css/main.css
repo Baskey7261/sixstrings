@@ -437,28 +437,31 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 98%;
     max-width: 800px;
-    width: auto;
     flex-grow: 0;
     flex-basis: auto;
     overflow: hidden;
     padding: 2% 5% 2% 5%;
     border-radius: 5px;
     margin-top: 0vw;
+    -margin-bottom: 30px;
 }
 
+#eight {}
+
 .central-image h3 {
-    text-align: left;
+    align-self: flex-start;
     margin-left: 0%;
 }
 
 .central-image P {
     padding-bottom: 10px;
     text-align: left;
-    margin-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
     align-self: flex-start;
-    max-width: 90ch;
+    -max-width: 90ch;
 }
 
 .cell4 {
@@ -468,9 +471,10 @@ header {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 950px;
-    padding: 2% 5% 0px 5%;
+    -padding: 2% 5% 0px 5%;
     margin: 0px auto;
     background: none;
+    -border: 1px solid red;
 }
 
 .cell4-header {
@@ -494,12 +498,13 @@ header {
     flex-direction: column;
     min-height: 400px;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 700px;
     flex-grow: 1;
     flex-basis: 50%;
     overflow: hidden;
     padding: 4%;
     border-radius: 5px;
+    -border: 1px solid red;
 }
 
 .cell4-cell1 img {
