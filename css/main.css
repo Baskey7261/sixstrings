@@ -450,6 +450,25 @@ header {
 
 #eight {}
 
+.hide {
+    display: none;
+}
+
+.drop {
+    cursor: pointer;
+}
+
+.close {
+    display: block;
+    margin: 15px auto;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    padding: 7px;
+    width: 20ch;
+    text-align: center;
+    cursor: pointer;
+}
+
 .central-image h3 {
     align-self: flex-start;
     margin-left: 0%;
@@ -461,7 +480,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     align-self: flex-start;
-    -max-width: 90ch;
 }
 
 .cell4 {

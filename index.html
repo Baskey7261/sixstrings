@@ -72,7 +72,9 @@
                 <h3>Good for the brain.</h3>
                 <p class="p-top-space">
                     Studies consistently show that musicians have superior memory capacity, auditory skills and cognitive flexibility compared to the general population. If you're looking for an activity to exercise the brain, music is an excellent choice.
+                    <!-- <span class="close">close</span> -->
                 </p>
+
             </div>
             <div class="central-image">
                 <h3>One on one learning</h3>
@@ -113,7 +115,7 @@
                     <button id="drop1Up">READ LESS</button>
                 </div>
                 <div class="cell4-cell1">
-                    <h3>Rock school</h3>
+                    <h3 class="drop">ROCK SCHOOL</h3>
                     <p class="p-top-space">Designed around the Trinity college of London's Rock and Pop grade initial through to grade 8 syllabus.</p>
                     <img src="assets/img/rockschool1.png" alt="Image of a man with a guitar" />
                     <div id="dropDown2">
@@ -205,6 +207,24 @@
             $("#learnLess").css("display", "none");
 
         })
+        let drops = document.getElementsByClassName("drop");
+        for (let e of drops) {
+            e.addEventListener("click", show);
+        }
+        let hides = document.getElementsByClassName("hide");
+        for (let e of hides) {
+            e.firstElementChild.addEventListener("click", hide);
+        }
+
+        function show() {
+            let x = this.nextElementSibling;
+            $(x).slideDown();
+        }
+
+        function hide() {
+            let x = this.parentElement;
+            $(x).slideUp();
+        }
     </script>
 </body>
 
