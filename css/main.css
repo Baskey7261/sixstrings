@@ -52,6 +52,25 @@ body {
     min-width: 300px;
 }
 
+.mobOnly {
+    display: none;
+}
+
+.mobOff {
+    display: flex;
+}
+
+hr {
+    border: none;
+    height: .8rem;
+}
+
+.underLine {
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    border-bottom: 2px solid var(--accent2);
+}
+
 a {
     color: inherit;
     font-family: inherit;
@@ -68,7 +87,7 @@ p {
     font-weight: 400;
     font-style: normal;
     line-height: 1.6em;
-    margin: 0rem 0px 1rem 0px;
+    margin: 0rem 0px 0px 0px;
     color: rgb(100, 100, 100);
 }
 
@@ -320,6 +339,16 @@ header {
     max-width: 600px;
 }
 
+.cell1-2 {
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    padding: 20px 0% 20px 20px;
+    min-width: 250px;
+    max-width: 600px;
+}
+
 .dropcap1::first-letter {
     padding-top: 10px;
     font-weight: 600;
@@ -329,6 +358,20 @@ header {
 
 .cell2 {
     background-image: url('../assets/img/cell2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    min-height: 250px;
+    max-width: 500px;
+    min-width: 250px;
+    margin: 0px auto;
+}
+
+.cell2-2 {
+    background-image: url('../assets/img/grading1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 90% 10%;
@@ -448,8 +491,6 @@ header {
     -margin-bottom: 30px;
 }
 
-#eight {}
-
 .hide {
     display: none;
 }
@@ -472,10 +513,11 @@ header {
 .central-image h3 {
     align-self: flex-start;
     margin-left: 0%;
+    width: 100%;
 }
 
 .central-image P {
-    padding-bottom: 10px;
+    -padding-bottom: 10px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -556,7 +598,9 @@ header {
 }
 
 #learnMore1,
-#learnLess {
+#learnMore2,
+#learnLess,
+#learnLess2 {
     color: coral;
     cursor: pointer;
     font-style: oblique;
@@ -568,16 +612,19 @@ header {
 }
 
 #learnMore1Drop,
+#learnMore1Drop2,
 #drop1Up,
 #drop2Up,
 #dropDown1,
 #dropDown2,
-#dropDown3 {
+#dropDown3,
+#dropDown4 {
     display: none;
 }
 
 #dropDown1,
-#dropDown2 {
+#dropDown2,
+#dropDown4 {
     margin-top: 10px;
 }
 
@@ -702,7 +749,15 @@ footer ul li {
     display: block;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:522px) {
+    .mobOnly {
+        display: block;
+        width: 98%;
+        margin: 0px auto;
+    }
+    .mobOff {
+        display: none;
+    }
     header {
         height: 100vh;
     }
@@ -763,7 +818,8 @@ footer ul li {
         grid-row: 4/5;
         z-index: 4;
     }
-    .cell1 {
+    .cell1,
+    .cell1-2 {
         position: relative;
         flex-grow: 1;
         flex-shrink: 1;
@@ -775,7 +831,8 @@ footer ul li {
         height: max-content;
         margin: 0px auto;
     }
-    .cell2 {
+    .cell2,
+    .cell2-2 {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -786,7 +843,7 @@ footer ul li {
         max-width: 500px;
         min-width: 250px;
         position: relative;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
     .cell3 {
