@@ -73,6 +73,8 @@ hr {
 
 a {
     color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
     font-family: inherit;
     text-decoration: none;
 }
