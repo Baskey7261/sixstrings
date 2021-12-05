@@ -531,9 +531,10 @@ header {
     flex-shrink: 1;
     flex-basis: 950px;
     -padding: 2% 5% 0px 5%;
-    margin: 0px auto;
+    margin: 20px auto;
     background: none;
-    -border: 1px solid red;
+    border: 1px solid var(--accent2);
+    border-radius: 4px;
 }
 
 .cell4-header {
