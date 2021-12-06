@@ -866,9 +866,9 @@ footer ul li {
         letter-spacing: .06em;
         font-weight: 300;
     }
-    #callNow {
+    .callNow {
         grid-column: 4/6;
-        grid-row: 4/6;
+        grid-row: 4/5;
     }
     .socLinks {
         grid-row: 7/8;
