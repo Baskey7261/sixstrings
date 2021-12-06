@@ -1,6 +1,8 @@
 :root {
     --accent: rgb(252, 213, 85);
     --accent2: rgb(233, 181, 92);
+    --grey1: rgb(206, 206, 205);
+    --grey2: rgb(140, 140, 141);
 }
 
 @font-face {
@@ -60,9 +62,26 @@ body {
     display: flex;
 }
 
-hr {
+hr {}
+
+.gap1 {
+    height: .5rem;
     border: none;
-    height: .8rem;
+}
+
+.gap2 {
+    height: 1rem;
+    border: none;
+}
+
+.gap3 {
+    height: 1.5rem;
+    border: none;
+}
+
+.gap3 {
+    height: 2rem;
+    border: none;
 }
 
 .underLine {
@@ -212,6 +231,7 @@ header {
     align-items: center;
     width: 100%;
     min-height: 300px;
+    height: 400px;
     margin: 0px auto 0px auto;
     background-color: rgb(187, 185, 185);
     grid-column: 2/5;
@@ -223,25 +243,32 @@ header {
     place-items: center;
     padding: 5px;
     border-radius: 4px;
-    border: 1px solid #fff;
-    background-color: rgb(84, 131, 219);
-    color: #fff;
+    border: 1px solid var(--grey2);
+    background-color: rgba(161, 161, 161, 0.247);
+    color: var(--accent2);
     font-size: 1rem;
-    grid-column: 1/1;
-    grid-row: 1/1;
     z-index: 10;
     cursor: pointer;
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 100px;
+    width: 180px;
+    grid-column: 4/6;
+    grid-row: 5/7;
+    justify-self: center;
+    align-self: center;
+}
+
+#callNow:hover {
+    border: 1px solid var(--accent2);
+    background-color: rgba(161, 161, 161, 0.438);
+    color: #fefefe;
 }
 
 .headBlock {
     display: flex;
     flex-direction: column;
     grid-column: 1/-1;
-    grid-row: 3/6;
+    grid-row: 2/5;
     z-index: 1;
+    gap: .8rem;
     justify-content: center;
     align-items: center;
 }
@@ -271,7 +298,7 @@ header {
     text-align: center;
     color: var(--accent2);
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 100;
     letter-spacing: .06em;
 }
 
@@ -285,7 +312,7 @@ header {
 .socLinks {
     display: flex;
     gap: 15px;
-    grid-row: 7/8;
+    grid-row: 7/9;
     grid-column: 1/-1;
     justify-content: center;
     margin-top: 5px;
@@ -829,6 +856,34 @@ footer ul li {
         color: #444;
         letter-spacing: .06em;
         font-weight: 300;
+    }
+    #callNow {
+        display: grid;
+        place-items: center;
+        padding: 5px;
+        border-radius: 4px;
+        border: 1px solid rgb(177, 138, 71);
+        background-color: rgba(161, 161, 161, 0.247);
+        color: var(--grey1);
+        font-size: 1rem;
+        grid-column: 1/1;
+        grid-row: 1/1;
+        z-index: 10;
+        cursor: pointer;
+        width: 180px;
+        grid-column: 4/6;
+        grid-row: 4/6;
+        justify-self: center;
+        align-self: center;
+    }
+    .socLinks {
+        display: flex;
+        gap: 15px;
+        grid-row: 7/8;
+        grid-column: 1/-1;
+        justify-content: center;
+        margin-top: 5px;
+        z-index: 2;
     }
     .container {
         position: relative;
