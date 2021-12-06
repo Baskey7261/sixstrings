@@ -398,7 +398,7 @@ header {
     min-height: 400px;
     max-width: 700px;
     margin: 20px auto 0px auto;
-    row-gap: 20px;
+    -row-gap: 20px;
     grid-column: 3/4;
     grid-row: 4/5;
     z-index: 4;
@@ -471,6 +471,7 @@ header {
     min-height: 250px;
     padding: 0px;
     background-color: rgb(140, 140, 141);
+    margin-top: 20px;
 }
 
 .cell3-2 {
@@ -769,7 +770,7 @@ footer ul li {
 
 .socialIcons {
     display: flex;
-    gap: 15px;
+    -gap: 15px;
     justify-content: center;
 }
 
