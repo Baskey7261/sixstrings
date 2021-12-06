@@ -87,6 +87,11 @@ body {
     border: none;
 }
 
+.gap4 {
+    height: 3rem;
+    border: none;
+}
+
 .underLine {
     padding-bottom: .8rem;
     margin-bottom: .8rem;
@@ -108,7 +113,7 @@ a {
 
 p {
     font-size: .9rem;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     line-height: 1.6em;
     margin: 0rem 0px 0px 0px;
@@ -203,7 +208,6 @@ button {
 nav {
     display: flex;
     flex-direction: row;
-    -column-gap: 10px;
     justify-content: flex-end;
     padding: 0px 0px 0px 0px;
     width: 94%;
@@ -246,7 +250,7 @@ header {
     grid-row: 2/3;
 }
 
-#callNow {
+.callNow {
     display: grid;
     place-items: center;
     padding: 5px;
@@ -264,7 +268,7 @@ header {
     align-self: center;
 }
 
-#callNow:hover {
+.callNow:hover {
     border: 1px solid var(--accent2);
     background-color: rgba(161, 161, 161, 0.438);
     color: #fefefe;
@@ -403,7 +407,6 @@ header {
     min-height: 400px;
     max-width: 700px;
     margin: 20px auto 0px auto;
-    -row-gap: 20px;
     grid-column: 3/4;
     grid-row: 4/5;
     z-index: 4;
@@ -519,18 +522,6 @@ header {
     height: 150px;
     margin: 0px auto;
 }
-
-
-/* .expanded-1::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(7, 7, 7);
-    -opacity: .4;
-} */
 
 .expanded-1-cell1 {
     padding: 5%;
