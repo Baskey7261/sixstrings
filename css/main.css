@@ -467,6 +467,20 @@ header {
     margin: 0px auto;
 }
 
+.cell2-3 {
+    background-image: url('../assets/img/Image232.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    min-height: 250px;
+    max-width: 500px;
+    min-width: 250px;
+    margin: 0px auto;
+}
+
 .cell3 {
     position: relative;
     display: flex;
@@ -695,7 +709,9 @@ header {
     text-align: center;
     width: 90%;
     max-width: 700px;
-    margin: 0px auto 40px auto;
+    margin: 40px auto 40px auto;
+    padding-top: 20px;
+    -border: 1px solid red;
 }
 
 #locate {
@@ -911,7 +927,8 @@ footer ul li {
         margin: 0px auto;
     }
     .cell2,
-    .cell2-2 {
+    .cell2-2,
+    .cell2-3 {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1004,5 +1021,13 @@ footer ul li {
         margin: 0px auto;
         background: none;
         border: none;
+    }
+    #aside1 {
+        text-align: center;
+        width: 90%;
+        max-width: 700px;
+        margin: 0px auto 40px auto;
+        padding-top: 0px;
+        -border: 1px solid red;
     }
 }
