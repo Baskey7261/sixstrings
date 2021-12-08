@@ -332,7 +332,7 @@ header {
 
 .socLinks div {
     font-family: "icomoon";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     display: flexbox;
     color: rgb(185, 185, 185);
     cursor: pointer;
@@ -920,6 +920,9 @@ footer ul li {
     .socLinks {
         grid-row: 7/8;
         grid-column: 1/-1;
+    }
+    .socLinks div {
+        font-size: 1.5rem;
     }
     .container {
         flex-direction: column;
