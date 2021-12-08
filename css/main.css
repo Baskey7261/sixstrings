@@ -481,6 +481,20 @@ header {
     margin: 0px auto;
 }
 
+.cell2-4 {
+    background-image: url('../assets/img/rockschool1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    min-height: 250px;
+    max-width: 500px;
+    min-width: 250px;
+    margin: 0px auto;
+}
+
 .cell3 {
     position: relative;
     display: flex;
@@ -493,7 +507,8 @@ header {
     min-height: 250px;
     padding: 0px;
     background-color: rgb(140, 140, 141);
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .cell3-2 {
@@ -928,7 +943,8 @@ footer ul li {
     }
     .cell2,
     .cell2-2,
-    .cell2-3 {
+    .cell2-3,
+    .cell2-4 {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -939,8 +955,8 @@ footer ul li {
         max-width: 500px;
         min-width: 250px;
         position: relative;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .cell3 {
         position: relative;
@@ -951,6 +967,7 @@ footer ul li {
         min-width: 250px;
         max-width: 700px;
         padding: 0px;
+        margin-top: 0px;
         background-color: rgb(140, 140, 141);
     }
     .cell3Text {
@@ -1026,8 +1043,7 @@ footer ul li {
         text-align: center;
         width: 90%;
         max-width: 700px;
-        margin: 0px auto 40px auto;
+        margin: 50px auto 40px auto;
         padding-top: 0px;
-        -border: 1px solid red;
     }
 }
