@@ -874,7 +874,13 @@ footer ul li {
     display: block;
 }
 
-@media screen and (max-width:522px) {
+@media (orientation: landscape) {
+    header {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:540px) {
     .mobOnly {
         display: block;
         width: 98%;
