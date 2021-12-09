@@ -41,7 +41,7 @@
             </div>
             <div class="headBlock">
                 <a href="#start">
-                    <h1 class="pageTitle thin">MUSICAL <i class="logo">&#xe900;</i> STRINGS</h1>
+                    <h1 class="pageTitle thin" onclick="playNow()">MUSICAL <i class="logo">&#xe900;</i> STRINGS</h1>
                 </a>
                 <h3 class="pageSubTitle"> Curriculum based guitar tuition.</h3>
             </div>
@@ -302,15 +302,13 @@
                         If you're reading this, audio isn't supported. 
             </audio>
     </div>
-    <iframe src="assets/audio/20211209-031116.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-    </iframe>
+    <!-- <iframe src="assets/audio/20211209-031116.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> -->
     <script>
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (!isChrome) {
-            $('#iframeAudio').remove()
-        } else {
-            $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+        function playNow() {
+            document.getElementById("playAudio").autoplay = true;
         }
+        playNow();
     </script>
 </body>
 
