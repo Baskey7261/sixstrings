@@ -20,7 +20,7 @@
 
     <div class="bodyCover"></div>
     <div class="wrapper">
-        <header>
+        <header id="head" onclick="playNow()">
             <div class="callNow"><a href="tel:07500723296"><span class="social phone"> </span> Call Now</a></div>
             <nav>
 
@@ -295,18 +295,22 @@
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     <div id="player">
-        <audio autoplay loop id="#playAudio">
+        <audio autoplay muted id="playAudio">
             
-             <source src="assets/audio/20211209-031116.ogg" type="audio/ogg">
-             <source src="assets/audio/20211209-031116.mp3" type="audio/mpeg">
+             <source src="assets/audio/20211209-031116.ogg" type="audio/ogg" id="aud">
+             <source src="assets/audio/20211209-031116.mp3" type="audio/mpeg" id="aud2">
                         If you're reading this, audio isn't supported. 
             </audio>
     </div>
-    <!-- <iframe src="assets/audio/20211209-031116.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-    </iframe> -->
+    <iframe src="assets/audio/20211209-031116.mp3" style="display:none" id="iframeAudio">
+    </iframe>
     <script>
         function playNow() {
             document.getElementById("playAudio").autoplay = true;
+            document.getElementById("iframeAudio").autoplay = true;
+            document.getElementById("playAudio").lastElementChild.muted = false;
+            console.log(document.getElementById("playAudio"));
+
         }
         playNow();
     </script>
