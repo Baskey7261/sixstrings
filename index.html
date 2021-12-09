@@ -295,11 +295,15 @@
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     <div id="player">
-        <audio autoplay hidden>
+        <audio autoplay loop>
+            
+             <source src="assets/audio/20211209-031116.ogg" type="audio/ogg">
              <source src="assets/audio/20211209-031116.mp3" type="audio/mpeg">
                         If you're reading this, audio isn't supported. 
             </audio>
     </div>
+    <iframe src="assets/audio/20211209-031116.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
 
 </body>
 
