@@ -781,6 +781,12 @@ footer* {
     color: #fff;
 }
 
+#aPlayer {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
 footer ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8rem;
@@ -812,7 +818,7 @@ footer ul li {
 .footerSocial {
     display: flex;
     flex-direction: column;
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 3/5;
     justify-content: center;
     margin-top: 5px;
