@@ -377,6 +377,10 @@ header {
     content: "\e947";
 }
 
+.audioControls {
+    font-family: icomoon;
+}
+
 .bodyTitle {
     text-align: center;
     width: 90%;

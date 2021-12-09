@@ -297,6 +297,7 @@ header {
 .thin {
     font-weight: 100;
     color: rgb(235, 235, 233);
+    cursor: pointer;
 }
 
 .box {
@@ -328,6 +329,25 @@ header {
     justify-content: center;
     margin-top: 5px;
     z-index: 2;
+}
+
+.audioControls {
+    display: flex;
+    width: max-content;
+    font-family: 'icomoon';
+    z-index: 12;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    -justify-self: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.playPause {
+    font-family: 'icomoon';
+    font-size: 1.2rem;
+    color: #dede;
+    cursor: pointer;
 }
 
 .socLinks div {
@@ -870,6 +890,21 @@ footer ul li {
         grid-column: 1/-1;
         grid-row: 2/4;
     }
+    .audioControls {
+        display: flex;
+        width: max-content;
+        font-family: 'icomoon';
+        z-index: 12;
+        grid-column: 4/6;
+        grid-row: 5/6;
+        justify-self: center;
+    }
+    .playPause {
+        font-size: 1.6rem;
+    }
+    .stop {
+        display: none;
+    }
     nav {
         display: flex;
         flex-direction: row;
@@ -907,6 +942,7 @@ footer ul li {
     .thin {
         font-weight: 100;
         color: rgb(235, 235, 233);
+        cursor: pointer;
     }
     .pageSubTitle {
         text-align: center;

@@ -20,7 +20,11 @@
 
     <div class="bodyCover"></div>
     <div class="wrapper">
-        <header id="head" onclick="playNow()">
+        <header id="head">
+            <!-- <div class="audioControls">
+                <div class="playPause go" onclick="playNow(this)">&#xea15;</div>
+                <div class="playPause stop" onclick="playNow(this)">&#xea16;</div>
+            </div> -->
             <div class="callNow"><a href="tel:07500723296"><span class="social phone"> </span> Call Now</a></div>
             <nav>
 
@@ -40,9 +44,9 @@
                 </a>
             </div>
             <div class="headBlock">
-                <a href="#start">
-                    <h1 class="pageTitle thin" onclick="playNow()">MUSICAL <i class="logo">&#xe900;</i> STRINGS</h1>
-                </a>
+
+                <h1 class="pageTitle thin" onclick="playNow()">MUSICAL <i class="logo">&#xe900;</i> STRINGS</h1>
+
                 <h3 class="pageSubTitle"> Curriculum based guitar tuition.</h3>
             </div>
         </header>
@@ -277,8 +281,8 @@
 
         <footer>
             <div id="aPlayer">
-                <audio controls loop id="play" preload="auto" tabindex="0" src="assets/audio/20211209-031116.mp3">
-                        <source src="assets/audio/20211209-031116.mp3">
+                <audio loop id="play" preload="auto" tabindex="0" src="assets/audio/20211209-132748.mp3">
+                        <source src="assets/audio/20211209-132748.mp3">
                     
                                 If you're reading this, audio isn't supported. 
                     </audio>
@@ -313,14 +317,14 @@
     <!-- <iframe src="assets/audio/20211209-031116.mp3" style="display:none" id="iframeAudio">
     </iframe> -->
     <script>
-        function playNow() {
+        function playNow(x) {
+
             document.getElementById("play").play();
             document.getElementById("play").lastElementChild.muted = false;
             console.log(document.getElementById("play"));
 
         }
         //playNow();
-        document.getElementById("head").click();
     </script>
 </body>
 
