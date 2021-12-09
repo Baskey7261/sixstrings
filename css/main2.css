@@ -876,7 +876,7 @@ footer ul li {
 
 @media (orientation: landscape) {
     header {
-        height: 100vh;
+        -height: 100vh;
     }
 }
 
