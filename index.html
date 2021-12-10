@@ -14,20 +14,11 @@
 
 <body>
 
-
-
-
-
     <div class="bodyCover"></div>
     <div class="wrapper">
         <header id="head">
-            <!-- <div class="audioControls">
-                <div class="playPause go" onclick="playNow(this)">&#xea15;</div>
-                <div class="playPause stop" onclick="playNow(this)">&#xea16;</div>
-            </div> -->
             <div class="callNow"><a href="tel:07500723296"><span class="social phone"> </span> Call Now</a></div>
             <nav>
-
                 <div><a href="#about">ABOUT</a></div>
                 <div><a href="#locate">CONTACT</a></div>
             </nav>
@@ -45,7 +36,7 @@
             </div>
             <div class="headBlock">
 
-                <h1 class="pageTitle thin" onclick="playNow()">MUSICAL <i class="logo">&#xe900;</i> STRINGS</h1>
+                <h1 class="pageTitle thin" onclick="toggleAudio()">MUSICAL <i class="logo">&#xe900;</i> STRINGS</h1>
 
                 <h3 class="pageSubTitle"> Curriculum based guitar tuition.</h3>
             </div>
@@ -55,7 +46,7 @@
                 <div class="cell1text">
                     <h3 class="underLine">Welcome.</h3>
                     <p>
-                        At Musical Six Strings, we specialize in curriculum based guitar tuition, which encompasses the Trinity college of London's Classical & Plectrum grade initial through to grade 8 syllabus (2015-2019).
+                        At Musical Six Strings, we specialize in curriculum based guitar tuition, which encompasses the Trinity college of London's Classical & Plectrum grade initial through to grade 8 syllabus (2020-2023).
                     </p>
                     <p class="dropDown">
                         Having a Trinity grade certificate verifies that you have met the criteria required by the Regulated Qualifications Framework (RQF). Credentials such as these are recognized around the globe as the industry standard in the music and entertainments industry.
@@ -125,44 +116,6 @@
 
             <div class="central-image">
             </div>
-            <!-- <div id="syllabuses" class="central-image">
-                <h3 class="underLine">Our syllabuses:</h3>
-                <p>
-                    We run two main syllabuses, Classical and Rock School.<br>The Classical syllabus is designed around compositions and techniques from the renaissance period up to the present day.<br> The Rock School syllabus is designed around acoustic
-                    and electric guitar, incorporating a wide range of genres and styles suited for both instruments.
-                </p>
-            </div> -->
-            <!-- <div class="cell4">
-                <div class="cell4-cell1">
-                    <h3 class="underLine">CLASSICAL</h3>
-                    <p>Designed around the Trinity college of London's Classical & Plectrum grade initial through to grade 8 syllabus.</p>
-                    <img src="assets/img/classic1.png" alt="image of girl with guitar" />
-                    <div class="dropDown">
-                        <br class="gap1">
-                        <p>
-                            From initial to grade eight, the Classical Syllabus covers a wide range of repertoire from all genres of Classical music. The technical work includes uniquely composed exercises to ensure the required technique is in place to complete each grade. Students
-                            will be trained through the early grades with exercises designed to build on the skill level and technical ability which will be heavily relied upon during the later grades.
-                        </p>
-                    </div>
-                    <button data-label1="READ MORE" data-label2="READ LESS" id="drop1Down" onclick="learnMore(this)">READ MORE</button>
-                </div>
-                <div class="cell4-cell1">
-                    <h3 class="underLine">ROCK SCHOOL</h3>
-                    <p>Designed around the Trinity college of London's Rock and Pop grade initial through to grade 8 syllabus.</p>
-                    <img src="assets/img/rockschool1.png" alt="Image of a man with a guitar" />
-                    <div class="dropDown">
-                        <br class="gap1">
-                        <p>
-                            Designed to work alongside the Trinity College of London's Rock and Pop Syllabus, The Rock school syllabus focuses on merging the techniques required for both acoustic and electric guitar, with a view to building a skill set that will be useful in building
-                            a repertoire that suits both instruments, with an emphasis on a wide range of finger-styles and plectrum technique. Students will be encouraged to explore a range of styles including, rock and pop, jazz, blues and country.
-                            The syllabus covers chord progressions and patterns, along with standard and none standard scales and arpeggios, using both plectrum and fingers.
-                        </p>
-                    </div>
-                    <button data-label1="READ MORE" data-label2="READ LESS" id="drop2Down" onclick="learnMore(this)">READ MORE</button>
-                </div>
-            </div> -->
-
-
             <div class="cell1 ">
                 <div class="cell1text">
                     <h3 class="underLine">Classical.</h3>
@@ -193,19 +146,8 @@
                     Students will be trained through the early grades with exercises designed to build on the skill level and technical ability which will be heavily relied upon during the later grades.
                 </p>
                 <em class="more" data-label1="Read more..." data-label2="Read less" onclick="learnMore(this)">Read more...</em>
-
-
             </div>
 
-            <!-- <div class="about" class="cell3">
-                <div class="cell3Text">
-                    <h3 class="underLine">Section Three</h3>
-                    <p>
-                        All of our learning packages are built around each of our pupils unique set of requirements. The methods we use to teach have been proven consistently to be the most efficient and effective which enables us to maintain an exam pass rate of 99% with many
-                        students receiving merits and distinctions.
-                    </p>
-                </div>
-            </div> -->
             <hr class="gap3">
             <h3 class="underLine mobOnly">Rock School:</h3>
             <hr class="gap2">
@@ -222,7 +164,6 @@
                     <hr class="mobOff gap1">
                     <p>
                         The Rock school syllabus focuses on merging the techniques required for both acoustic and electric guitar. The aim of the syllabus is to build a skill set that will be useful in building a repertoire that suits both instruments.<br>
-
                     </p>
                     <p class="dropDown">
                         <span class="mobOff">With an emphasis on a wide range of finger-styles and plectrum technique,students will be encouraged to explore a range of styles including, rock and pop, jazz, blues and country. The syllabus also covers chord
@@ -270,8 +211,6 @@
                 width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="footnote">
-
-
             <br class="gap2">
             <p>
                 For any other enquiries or to book your first lesson, please call, text or visit us on social media.
@@ -288,11 +227,16 @@
                     </audio>
             </div>
             <div class="footerSocial">
-                <!-- <p>Follow us on:</p> -->
                 <div class="socialIcons">
-                    <div class="fb"></div>
-                    <div class="tw sideGap"></div>
-                    <div class="ins"></div>
+                    <a href="https://www.facebook.com/Musical-6-Strings-107755021737831">
+                        <div class="fb"></div>
+                    </a>
+                    <a href="https://twitter.com/MusicalSix2021">
+                        <div class="tw sideGap"></div>
+                    </a>
+                    <a href="https://www.instagram.com/musicalsixstrings/">
+                        <div class="ins"></div>
+                    </a>
                 </div>
             </div>
             <div class="address">
@@ -306,26 +250,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
 
-
-
-
-
-
-
-
-
-    <!-- <iframe src="assets/audio/20211209-031116.mp3" style="display:none" id="iframeAudio">
-    </iframe> -->
-    <script>
-        function playNow(x) {
-
-            document.getElementById("play").play();
-            document.getElementById("play").lastElementChild.muted = false;
-            console.log(document.getElementById("play"));
-
-        }
-        //playNow();
-    </script>
 </body>
 
 </html>
