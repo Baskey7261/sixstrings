@@ -949,6 +949,7 @@ footer ul li {
         font-weight: 100;
         color: rgb(235, 235, 233);
         cursor: pointer;
+        user-select: none;
     }
     .pageSubTitle {
         text-align: center;
