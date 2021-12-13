@@ -43,7 +43,6 @@ i {
 
 * {
     font-family: QuicksandReg;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -95,14 +94,9 @@ body {
 }
 
 .underLine {
-    padding-bottom: .4rem;
-    margin-bottom: 0rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
     border-bottom: 2px solid rgb(215, 161, 67);
-}
-
-.center {
-    margin: 0px auto;
-    text-align: center;
 }
 
 a {
@@ -129,9 +123,9 @@ p {
 
 em {
     display: block;
-    font-size: .9em;
+    font-size: .8em;
     font-weight: 100;
-    color: #555;
+    color: rgb(131, 131, 131);
 }
 
 h1 {
@@ -153,10 +147,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 600;
     font-style: normal;
-    line-height: 1.7rem;
+    line-height: 1rem;
     margin: 0px 0px 0px 0px;
     color: rgb(113, 110, 105);
 }
